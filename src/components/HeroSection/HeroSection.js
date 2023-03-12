@@ -10,8 +10,8 @@ const HeroSection = () => {
             <img className='hero-box-image' src={HeroBoxImg} alt='HeroBoxImg' />
         </div>
         <div className='hero-box-content'>
-            <p>WELCOME, TO MY PORTFOLIO.</p>
-            <h1>Created By React.</h1>
+            <p>WELCOME, TO MY PAGE.</p>
+            <h1>Created Using React.</h1>
             <div>
                 <Link to="/project" className="btn">Projects</Link>
                 <Link to="/contact" className="btn btn-light">Contact</Link>
