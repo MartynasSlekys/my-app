@@ -1,9 +1,16 @@
-import React from 'react'
+import React from 'react';
+import FooterSection from '../components/FooterSection/FooterSection';
+import NavigationBar from '../components/NavigationBar/NavigationBar';
+import ProjectSection from '../components/ProjectSection/ProjectSection';
 
 const About = () => {
   return (
-    <div>About</div>
+    <div>
+      <NavigationBar />
+      <ProjectSection heading="About." text="Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print" />
+      <FooterSection />
+    </div>
   )
 }
 
-export default About
+export default About;
