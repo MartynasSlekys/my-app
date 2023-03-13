@@ -44,6 +44,17 @@
     margin-bottom: 0.5rem;
 }
 
+.footer-email-wrapper {
+    display: flex;
+    margin-bottom: 0.8rem;
+}
+
+.footer-email-info a {
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+
+
 .right-side-content {
     height: 100%;
     max-width: 100%;
