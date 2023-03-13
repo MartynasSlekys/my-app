@@ -1,4 +1,4 @@
-import '../ContactForm/ContactForm.css';
+import '../ContactForm/ContactForm.scss';
 
 import React from 'react'
 
