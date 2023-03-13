@@ -22,9 +22,9 @@ const FooterSection = () => {
                     size={20} 
                     style={{ color: "#fff", marginRight: "2rem" }} 
                     />
-                    <div>
-                        <p>Call us: +44 777-777-222</p>
-                        <p>Email: react@gmail.com</p>
+                    <div className='footer-contact-info'>
+                        <a href='tel:+44 777-777-222'>Call us: +44 777-777-222</a>
+                        <a href='mailto:react@gmail.com'>Email: react@gmail.com</a>
                     </div>
                 </div>
 
