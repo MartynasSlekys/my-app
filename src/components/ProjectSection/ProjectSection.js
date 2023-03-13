@@ -1,4 +1,4 @@
-import '../ProjectSection/ProjectSection.css';
+import '../ProjectSection/ProjectSection.scss';
 
 import React, { Component } from 'react';
 
