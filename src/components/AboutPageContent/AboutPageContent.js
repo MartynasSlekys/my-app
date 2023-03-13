@@ -1,4 +1,4 @@
-import '../AboutPageContent/AboutPageContent.css';
+import '../AboutPageContent/AboutPageContent.scss';
 import react1 from '../../images/react1.jpg';
 import React from 'react';
 import { Link } from 'react-router-dom';
