@@ -1,6 +1,6 @@
 import '../FooterSection/FooterSection.css';
 import React from 'react'
-import { FaFacebook, FaHome, FaLinkedin, FaPhone, FaTwitter } from 'react-icons/fa';
+import { FaFacebook, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaTwitter } from 'react-icons/fa';
 
 const FooterSection = () => {
   return (
@@ -23,8 +23,16 @@ const FooterSection = () => {
                     style={{ color: "#fff", marginRight: "2rem" }} 
                     />
                     <div className='footer-contact-info'>
-                        <a href='tel:+44 777-777-222'>Call us: +44 777-777-222</a>
-                        <a href='mailto:react@gmail.com'>Email: react@gmail.com</a>
+                        <a href='tel:+44 777-777-222'>+44 777-777-222</a>
+                    </div>
+                </div>
+                <div className='footer-email-wrapper'>
+                    <FaMailBulk
+                    size={20} 
+                    style={{ color: "#fff", marginRight: "2rem" }} 
+                    />
+                    <div className='footer-email-info'>
+                        <a href='mailto:react@gmail.com'>react@gmail.com</a>
                     </div>
                 </div>
 
