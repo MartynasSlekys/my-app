@@ -1,4 +1,4 @@
-import '../FooterSection/FooterSection.css';
+import '../FooterSection/FooterSection.scss';
 import React from 'react'
 import { FaFacebook, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaTwitter } from 'react-icons/fa';
 
