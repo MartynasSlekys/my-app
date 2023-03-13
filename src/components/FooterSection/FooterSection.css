@@ -35,8 +35,13 @@
     margin-bottom: 0.8rem;
 }
 
-.footer-phone-wrapper p {
+.footer-phone-wrapper a {
     line-height: 30px;
+}
+
+.footer-contact-info a {
+    display: flex;
+    margin-bottom: 0.5rem;
 }
 
 .right-side-content {
