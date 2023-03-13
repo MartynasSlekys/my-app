@@ -1,4 +1,4 @@
-import '../PricingCards/PricingCards.css';
+import '../PricingCards/PricingCards.scss';
 
 import React from 'react'
 import { Link } from 'react-router-dom';
